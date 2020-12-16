@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --primary-color:#3B82F6;
+    --dark-grey:#6B7280;
+    --light-grey:#E5E7EB;
+}
+
+hr{
+    margin: 1rem 0rem; 
+}
+
+/*   containres   */
+
+.fluid-cont{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}    
+
+.center-cont{
+    max-width:600px;
+    margin: auto;
+}
+
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 2rem 1 rem;
+}
+
+.pri-link{
+    background-color:var(--primary-color);
+    padding: 0.5rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.sec-link{
+    color:var(--primary-color);
+    background-color:var(--light-grey);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+}
+
+/*    lists    */
+
+.no-bullets{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*   nav bar   */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding:0rem 0.5rem;
+    
+}
+
+.nav-link{
+    text-align: right;
+}
+.active:hover{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:black;
+}
+
+/*   header   */
+
+.hero{
+    padding: 1rem;
+}
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+    font-size: 2rem;
+    color: var(--dark-grey);
+    text-align: center;
+}
+.highlight{
+    color:purple;
+}
+
+/*   section   */
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--light-grey);
+}
+
+/*    footeer    */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: wheat;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding: 0px;
+}
