@@ -139,3 +139,19 @@ hr{
 .footer ul{
     padding: 0px;
 }
+
+.typing{
+    animation: typing 10sstep-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
